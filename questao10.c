@@ -25,33 +25,3 @@ x for declarado como double?
 d) O endereço de memória 4092 eh incrementado de 8 em 8 bytes: 4100 4108 4116
 
 */
-
-
-#include <stdio.h>
-
-int main(){
-    char vet1[4];
-    int vet2[4];
-    float vet3[4];
-    double vet4[4];
-
-    for(int i=0; i<=3; i++){
-        printf("%d ", (vet1+i));
-    }
-    printf("\n");
-
-    for(int i=0; i<=3; i++){
-        printf("%d ", (vet2+i));    //no computador usado inteiro ocupa 4 bytes
-    }
-    printf("\n");
-
-    for(int i=0; i<=3; i++){
-        printf("%d ", (vet3+i));
-    }
-    printf("\n");
-
-    for(int i=0; i<=3; i++){
-        printf("%d ", (vet4+i));
-    }
-    printf("\n");
-}
