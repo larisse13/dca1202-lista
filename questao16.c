@@ -19,7 +19,7 @@
 int func_comp(float x, float y) {
     //Cast para alterar os ponteiros const void *x e y para valores inteiros
     //Se x<y retorna valor <0, se x=y retorna 0 e se x>y retorna >0
-    return ( x - y );
+    return ( x > y );
 }
 
 //Funcao para ordenar os floats do vetor
