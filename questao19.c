@@ -3,11 +3,15 @@
 /* --------------------------------------------------------------------------------------- */
 
 /*
-18. Escreva uma função em c que escreva em um vetor a soma dos elementos correspondentes de
- outros dois vetores (os tamanhos dos vetores devem ser fornecidos pelo usuário). Por exemplo,
- se o primeiro vetor contiver os elementos 1, 3, 0 e -2, e o segundo vetor contiver os
- elementos 3, 5, -3 e 1, o vetor de soma terá valores resultantes iguais a 4, 8, -3 e -1. A
- função deve receber 4 argumentos: os nomes dos três vetores e o número de elementos presentes em cada vetor.
+19. Crie uma função capaz de realizar multiplicação matricial da forma
+. A função deve receber 6 argumentos: os ponteiros para as
+matrizes A, B e C, o número de linhas e colunas de A e o número de
+colunas de B (assuma que o número de coluna de A é igual ao número
+de linhas de B). O resultado da multiplicação deve ficar armazenado
+em C. Crie um programa para testar sua implementação, capaz de
+utilizar a função de multiplicação e imprimir as três matrizes. A
+função criada para multiplicação não deve realizar nenhum tipo de
+saída de dados no terminal.
 
 
 [RESPOSTA]
